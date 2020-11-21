@@ -1,0 +1,61 @@
+/* Base style for mobile devices */
+
+* {
+    box-sizing: border-box;
+}
+
+
+#header-nav {
+    background-color: #D4CBE5
+}
+
+.navbar-header button.collapsed, .navbar-header button.collapsed > .icon-bar {
+    border: 1px solid #353339;
+}
+
+.navbar-header .navbar-toggle:focus {
+    background-color: #D4CBE5;
+}
+
+.navbar-brand > p {
+    font-size: 1.25em;
+    color: #54457F;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+#nav-list div {
+    text-align: center;
+    color: #54457F;
+    background-color: #DCE5CB;
+    border-bottom: 1px solid #353339;
+    border-top: 1px solid #353339;
+    margin-bottom: -1px;
+}
+
+.row {
+    margin-bottom: 15px
+}
+
+.menu-name {
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+    color: #54457F;
+    font-size: 1.75em;
+}
+
+.course-container {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #D4CBE5;
+}
+
+.course-name {
+    font-size: 1.25em;
+}
