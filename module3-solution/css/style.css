@@ -37,7 +37,13 @@
 }
 
 .row {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row > div {
+    padding: 0px;
 }
 
 .menu-name {
@@ -49,13 +55,14 @@
 }
 
 .course-container {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: #D4CBE5;
 }
 
 .course-name {
-    font-size: 1.25em;
+    color: #54457F;
+    margin-top: -15px;
 }
